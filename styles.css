@@ -1,0 +1,173 @@
+body {
+  background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHhtbG5zOnN2Z2pzPSJodHRwOi8vc3ZnanMuZGV2L3N2Z2pzIiB2aWV3Qm94PSIwIDAgNzAwIDcwMCIgd2lkdGg9IjcwMCIgaGVpZ2h0PSI3MDAiPjxkZWZzPjxyYWRpYWxHcmFkaWVudCBpZD0iZ2dncmFpbi1ncmFkaWVudCIgcj0iMC43Ij4KICAgICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzljYjVhNiI+PC9zdG9wPgogICAgICA8c3RvcCBvZmZzZXQ9IjUwJSIgc3RvcC1jb2xvcj0iIzlkYjZhNyI+PC9zdG9wPgogICAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNjZmRiYzIiPjwvc3RvcD4KICAgIDwvcmFkaWFsR3JhZGllbnQ+PGZpbHRlciBpZD0iZ2dncmFpbi1maWx0ZXIiIHg9Ii0yMCUiIHk9Ii0yMCUiIHdpZHRoPSIxNDAlIiBoZWlnaHQ9IjE0MCUiIGZpbHRlclVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgcHJpbWl0aXZlVW5pdHM9InVzZXJTcGFjZU9uVXNlIiBjb2xvci1pbnRlcnBvbGF0aW9uLWZpbHRlcnM9InNSR0IiPgogIDxmZVR1cmJ1bGVuY2UgdHlwZT0iZnJhY3RhbE5vaXNlIiBiYXNlRnJlcXVlbmN5PSIxLjAxIiBudW1PY3RhdmVzPSIyIiBzZWVkPSIyIiBzdGl0Y2hUaWxlcz0ic3RpdGNoIiB4PSIwJSIgeT0iMCUiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIHJlc3VsdD0idHVyYnVsZW5jZSI+PC9mZVR1cmJ1bGVuY2U+CiAgPGZlQ29sb3JNYXRyaXggdHlwZT0ic2F0dXJhdGUiIHZhbHVlcz0iMCIgeD0iMCUiIHk9IjAlIiB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBpbj0idHVyYnVsZW5jZSIgcmVzdWx0PSJjb2xvcm1hdHJpeCI+PC9mZUNvbG9yTWF0cml4PgogIDxmZUNvbXBvbmVudFRyYW5zZmVyIHg9IjAlIiB5PSIwJSIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgaW49ImNvbG9ybWF0cml4IiByZXN1bHQ9ImNvbXBvbmVudFRyYW5zZmVyIj4KICAgIDxmZUZ1bmNSIHR5cGU9ImxpbmVhciIgc2xvcGU9IjMiPjwvZmVGdW5jUj4KICAgIDxmZUZ1bmNHIHR5cGU9ImxpbmVhciIgc2xvcGU9IjMiPjwvZmVGdW5jRz4KICAgIDxmZUZ1bmNCIHR5cGU9ImxpbmVhciIgc2xvcGU9IjMiPjwvZmVGdW5jQj4KICA8L2ZlQ29tcG9uZW50VHJhbnNmZXI+CiAgPGZlQ29sb3JNYXRyaXggeD0iMCUiIHk9IjAlIiB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBpbj0iY29tcG9uZW50VHJhbnNmZXIiIHJlc3VsdD0iY29sb3JtYXRyaXgyIiB0eXBlPSJtYXRyaXgiIHZhbHVlcz0iMSAwIDAgMCAwCiAgICAgICAgICAwIDEgMCAwIDAKICAgICAgICAgIDAgMCAxIDAgMAogICAgICAgICAgMCAwIDAgMTYgLTgiPjwvZmVDb2xvck1hdHJpeD4KICA8L2ZpbHRlcj48L2RlZnM+PGc+PHJlY3Qgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgZmlsbD0idXJsKCNnZ2dyYWluLWdyYWRpZW50KSI+PC9yZWN0PjxyZWN0IHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InRyYW5zcGFyZW50IiBmaWx0ZXI9InVybCgjZ2dncmFpbi1maWx0ZXIpIiBvcGFjaXR5PSIwLjQ2IiBzdHlsZT0ibWl4LWJsZW5kLW1vZGU6IHNvZnQtbGlnaHQiPjwvcmVjdD48L2c+PC9zdmc+)
+
+}
+
+.container {
+  width: 100%;
+  margin-inline: auto;
+}
+
+header {
+  text-align: center;
+  font-family: 'Barbra';
+  font-weight: 900;
+  display: flex;
+  /* justify-content: space-around; */
+}
+header > h1 {
+  margin: 0px;
+  width: fit-content;
+
+}
+h2 {
+  font-family: 'Barbra';
+  text-align: center;
+  margin: 0px;
+
+}
+hr{
+  border: black solid;
+  width:15%;
+  height:0%;
+  margin-block: auto;
+}
+
+.links {
+  display: flex;
+  justify-content: space-around;
+}
+ a {
+  color: rgb(99, 99, 99);
+  font-family: Raleway;
+  font-size: 1.3vw;
+ }
+
+ p {
+  font-family: 'Raleway';
+  text-align: center;
+
+}
+
+.bio {
+  margin-inline: 2vw;
+  background-color: whitesmoke;
+}
+
+.app {
+  background-color: whitesmoke;
+  padding: 0.5vw;
+  margin-inline: 2vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.icon {
+  width:2vw;
+  margin-inline: auto;
+}
+.app,
+.bio {
+  transition: 200ms;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  border-radius: 3px;
+}
+
+.app:hover {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.row >div {
+  border: 4px solid black;
+}
+
+/* desktop screen */
+@media only screen and (min-width: 768px) {
+  .app {
+    width: 18vw;
+    aspect-ratio: 1/1;
+
+  }
+
+  .bio {
+    width: 43.5vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-bottom: 2vh;
+  }
+  .bio > p {
+    font-size: 2vw;
+    text-align: left;
+    padding-inline: 1vw;
+  }
+  
+.row {
+  display: flex;
+  justify-content: space-between;
+  width: 60%;
+  margin-inline: auto;
+  margin-block: 4vh;
+}
+header {
+  font-size: 4.5vh;
+
+}
+p {
+  font-size: 1vw;
+}
+}
+
+/* mobile screen */
+@media only screen and (max-width: 767px) {
+  .app, .bio {
+    width: 70vw;
+    margin-inline: auto;
+    margin-block: 1vh;
+    
+  }
+  .app {
+    aspect-ratio: 3/2;
+  }
+
+
+  .row {
+    display: flex;
+    flex-direction: column;
+  }
+  header {
+    font-size: 3vh;
+  }
+  .links {
+    margin-bottom: 1vh;
+
+  }
+}
+
+
+
+@font-face {
+  font-family: 'Agrandir Grand';
+  src: url('./assets/agrandir-grand.ttf');
+}
+@font-face {
+  font-family: 'Barbra';
+  src: url('./assets/Barbra-Regular.ttf');
+}
+
+@font-face {
+  font-family: 'Raleway';
+  src: url('./assets/Raleway-Regular.ttf')
+}
+
+/* =======================================================
+*
+* 	Template Style 
+*	Edit this section
+*
+* ======================================================= */
+
+
+
+
+

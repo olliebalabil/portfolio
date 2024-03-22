@@ -1,0 +1,4 @@
+{
+  "appService.defaultWebAppToDeploy": "undefined/subscriptions/3c04b73a-bf47-4c89-a2a9-c3506d067fae/resourceGroups/appsvc_linux_centralus/providers/Microsoft.Web/sites/olliebalabil",
+  "appService.deploySubpath": "."
+}
