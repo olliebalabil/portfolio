@@ -18,28 +18,38 @@
 
 <body>
   <header>
-    <hr>
-    <h1>Ollie Balabil</h1>
-    <hr>
+    <!-- <hr id="left"> -->
+    <h1>
+      <a href="https://www.linkedin.com/in/olliebalabil/">
+        Ollie Balabil
+      </a>
+    </h1>
+    <!-- <hr id="right"> -->
   </header>
 
   <div class="container">
     <div class="row">
       <div class="bio box">
-        <p>Hi! I'm a software engineer passionate about problem-solving, continuous learning and creativity.</p>
+        <p>
+          <span>Hi!</span>
+          I'm a software engineer passionate about problem-solving, continuous learning and creativity.
+          <a href="mailto:oliverbalabil@gmail.com" id="email">oliverbalabil@gmail.com</a>
+        </p>
         <div class="links">
           <a href="https://github.com/olliebalabil">Github</a>
           <a href="https://www.linkedin.com/in/olliebalabil/">LinkedIn</a>
-          <a href="mailto:oliverbalabil@gmail.com">Email</a>
+          
         </div>
       </div class="app-title">
-      <div class="app  box" onclick="openLink('https://mashify.onrender.com/')">
+      <div class="app  box"  onclick="openLink('https://mashify.onrender.com/')">
         <h2>Mashify</h2>
+
         <p>
           Mashify is a React.js app allows users to create Spotify playlists featuring artists similar to two chosen
           artists, allowing them to discover new music. This project uses Spotify's API.
         </p>
         <img src="./assets/favicon.ico" alt="" class="icon">
+
       </div>
     </div>
     <div class="row">
@@ -57,7 +67,8 @@
           Music of Life
         </h2>
         <p>
-          Music of Life provides a musical representation of Conway's Game of Life, combining my passion for music and maths. Users explore and listen to different patterns.
+          Music of Life provides a musical representation of the Game of Life, combining my passion for music and maths.
+          Users explore and listen to different patterns.
         </p>
         <img src="./assets/Screenshot_2024-02-25_114809-removebg-preview.png" alt="" class="icon">
       </div>
@@ -80,6 +91,8 @@
     function openLink(url) {
       window.open(url, '_blank')
     }
+
+  
   </script>
 </body>
 

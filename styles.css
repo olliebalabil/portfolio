@@ -13,25 +13,44 @@ header {
   font-family: 'Barbra';
   font-weight: 900;
   display: flex;
-  /* justify-content: space-around; */
+  justify-content: space-around;
 }
 header > h1 {
   margin: 0px;
   width: fit-content;
-
+}
+header > h1 > a {
+  all: inherit;
+  cursor: pointer;
+  transition: 2000ms;
+}
+h1 > a:hover {
+  letter-spacing: 1vw;
 }
 h2 {
   font-family: 'Barbra';
   text-align: center;
   margin: 0px;
-
+  transition: 200ms;
 }
+
 hr{
   border: black solid;
   width:15%;
   height:0%;
   margin-block: auto;
 }
+hr#left{
+  margin-left: 3vw;
+  margin-right: auto;
+}
+hr#right {
+  margin-left: auto;
+  margin-right: 3vw ;
+}
+
+
+
 
 .links {
   display: flex;
@@ -40,8 +59,15 @@ hr{
  a {
   color: rgb(99, 99, 99);
   font-family: Raleway;
-  font-size: 1.3vw;
  }
+
+#email {
+  text-decoration: none;
+  color: black
+}
+#email:hover{
+  text-decoration: underline;
+}
 
  p {
   font-family: 'Raleway';
@@ -52,6 +78,18 @@ hr{
 .bio {
   margin-inline: 2vw;
   background-color: whitesmoke;
+
+}
+span {
+  transition: 200ms;
+  font-family: 'Barbra';
+
+}
+.bio:hover{
+  p >span {
+    letter-spacing: 0.5vw;
+    font-family: 'Barbra';
+  }
 }
 
 .app {
@@ -63,10 +101,6 @@ hr{
   justify-content: space-between;
 }
 
-.icon {
-  width:2vw;
-  margin-inline: auto;
-}
 .app,
 .bio {
   transition: 200ms;
@@ -76,10 +110,15 @@ hr{
 
 .app:hover {
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  p, .icon {
+  transition: 100ms;
+  }
+  h2 {
+    letter-spacing: 0.3vw;
+  }
 }
-.row >div {
-  border: 4px solid black;
-}
+
+
 
 /* desktop screen */
 @media only screen and (min-width: 768px) {
@@ -116,6 +155,15 @@ header {
 p {
   font-size: 1vw;
 }
+
+.icon {
+  width:2vw;
+  margin-inline: auto;
+}
+a {
+font-size: 1.3vw;
+  
+}
 }
 
 /* mobile screen */
@@ -142,6 +190,13 @@ p {
     margin-bottom: 1vh;
 
   }
+  a {
+    font-size:2.5vw
+  }
+.icon {
+  width:10vw;
+  margin-inline: auto;
+}
 }
 
 
