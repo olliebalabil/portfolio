@@ -160,7 +160,7 @@ margin: 0;
     padding-bottom: 2vh;
   }
   .bio > p {
-    font-size: 2vw;
+    font-size: 1.8vw;
     text-align: left;
     padding-inline: 1vw;
   }
@@ -207,7 +207,7 @@ font-size: 1.3vw;
     aspect-ratio: 3/2;
   }
 
-
+  
   .row {
     display: flex;
     flex-direction: column;
@@ -222,6 +222,12 @@ font-size: 1.3vw;
   a {
     font-size:2.5vw
   }
+
+  #email {
+    display: flex;
+    justify-content: center;
+  }
+
 .icon {
   width:10vw;
   margin-inline: auto;
